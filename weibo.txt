@@ -1,0 +1,93 @@
+[Adblock Plus 1.5]
+!================微博小广告过滤规则列表======================
+!==========新浪微博经典版界面变态清爽过滤规则================
+!屏蔽会员推荐
+weibo.com##DIV[id="trustPagelet_recom_member"]
+!屏蔽会员图标
+weibo.com##IMG[class="ico_member"]
+!屏蔽会员抽大奖
+weibo.com##DIV[class="tipsinvite"]
+!屏蔽右侧栏活动
+weibo.com##DIV[id="pl_rightmod_ads35"]
+!右侧栏各种推荐，反正我不看
+weibo.com##DIV[class="W_rightModule2"]
+!每日心情那个
+weibo.com##DIV[class="mood"]
+!分组，微群切换，我不分组，无用，你可以不要这条
+weibo.com##DIV[class="newFilter W_texta"]
+!顶部左边的导航，依次是——广场，微群，应用，游戏
+weibo.com##LI[node-type="plaza"]
+weibo.com##LI[node-type="group"]
+weibo.com##LI[node-type="app"]
+weibo.com##LI[node-type="game"]
+!顶部右边的导航，依次是——提醒，找人，手机/在新版中导致无法看到通知页面内容
+!weibo.com##LI[node-type="notice"]
+weibo.com##LI[node-type="find"]
+weibo.com##LI[node-type="phone"]
+!发布微博下边的轮播广告，好像页尾也有一条
+weibo.com##DIV[class="tips_player"]
+!页尾那些各种链接，你真看过？
+weibo.com##DIV[class="global_footer global_footer_narrow"]
+!会员等级，你以为自己是企鹅？
+weibo.com##P[class="level"]
+!发布框上的新闻
+weibo.com##DIV[class="key W_textb"]
+!举报中心的链接，也没见广告少过
+weibo.com##DIV[id="pl_common_reportentry"]
+!一个不知道想干啥的黄色提示
+weibo.com##DIV[class="layer_tips_bg"]
+
+
+!各种黄色的小提示，不想看还老碍事
+weibo.com##DIV[class="layer_tips"]
+weibo.com##DIV[class="layer_tips layer_tips_version layer_tips_intro"]
+!页尾广告，不看不看
+weibo.com##DIV[class="footer_adv"]
+weibo.com##DIV[class="footer_adv clearfix"]
+!勋章提示
+weibo.com##DIV[class="declist"]
+!游戏列表
+weibo.com##DIV[id="pl_leftNav_game"]
+!应用列表
+weibo.com##DIV[id="pl_leftNav_app"]
+!等级
+weibo.com##SPAN[class="W_level_ico color1"]
+!什么什么奥运的弹窗
+weibo.com##DIV[id="wbim_box"][class="wbim_box"]
+
+!新版新浪微博，为了照顾体验，下手比较轻
+!页尾
+weibo.com##DIV[class="global_footer S_bg4"]
+!右侧边，保留邀请好友，升级贴士
+weibo.com##DIV[class="WB_right_module"]
+!新版超清爽
+!新浪会员，我不缴费，我不看
+weibo.com##I[class="W_ico16 ico_member"]
+!新浪微博达人，我不在乎，我不看
+weibo.com##I[class="W_ico16 ico_club"]
+!右边升级贴士
+weibo.com##DIV[id="pl_rightmod_yunying"]
+!发布框上的热点新闻
+weibo.com##DIV[class="key S_textb"]
+!左侧的各种应用
+weibo.com##DIV[class="level_3_Box W_func"]
+!忘记是啥了
+weibo.com##DIV[id="pl_content_biztips"]
+!成长等级都是浮云啊
+weibo.com##DIV[class="icon_bed"]
+!好友推荐，我用不着！还他娘弹出的，卑鄙啊！
+weibo.com##DIV[class="layer_userguide_brief"]
+weibo.com##DIV[style="position: fixed; top: 0px; left: 0px; width: 1423px; height: 347px; background-color: rgb(0, 0, 0); opacity: 0.3; z-index: 10001; "]
+!右侧天猫广告，喵喵~
+weibo.com##DIV[class="W_rightModule"]
+!蛐蛐介绍的牛逼规则
+||biz.weibo.com^
+!试图屏蔽信息流广告
+weibo.com##[feedtype="ad"]
+
+
+!==========腾讯微博界面变态清爽过滤规则================
+
+t.qq.com##DIV[id="main_cmd_w"][class="main_cmd_w"]
+t.qq.com##DIV[id="homeBannerNew"][class="main_bn"]
+t.qq.com##DIV[id="Copyright"]
